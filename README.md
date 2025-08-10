@@ -17,7 +17,7 @@
 <!-- UPDATE -->
 <div align="center">
   <a href="https://github.com/cgs-iitkgp/PROJECT_NAME">
-     <img width="140" alt="image" src="">
+     <img width="140" alt="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLW7Aky6uVRhsyzD1aheY_xWsCUjJMEiE-lw&s">
   </a>
 
   <h3 align="center">Treasure-Run</h3>
