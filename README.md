@@ -56,7 +56,38 @@
   </a>
 </div>
 
-_Detailed explaination of the project goes here_
+Treasure Run is a 2-D grid-based game built using pygame where-
+The player collects the keys and reaches treasure.(Only one key is correct.)
+Enemies patrol and chase using a combination of  DQN and A*. 
+
+CORE COMPONENTS-
+game.py-
+Handles all the game logic - rendering,input,movement,health,collisions.   
+rl_agent.py-
+Defines the enemy agent using Deep-Q Learning with Pytorch.
+main.py-
+Runs the main loop, run the game from here.
+
+WORKING-
+The main function initializes Pygame and creates the Game object and calls the function game.update() every frame.
+game.update()-
+	This function runs every frame 
+	It handles player input(handle_input())
+	Animates movement(animate_player(),animate_enemies())
+	Check if keys are collected or not
+	Updates enemies behaviour using update_enemies()
+	Triggers learning via enemy_agent.replay()
+	Displays health,energy and grid
+update_enemies():
+	Each enemies decides what to do , if the player is visible chase it and keep chasing until the player goes out of a chase radius and otherwise patrol the grid using DQN , this improves the proper exploration of the grid.
+Reward Policy-
+Default=-1
+If player is visible=+10
+If enemy catches player=+50
+
+Languages used- Python
+Libraries used-
+pygame,PyTorch…..
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
