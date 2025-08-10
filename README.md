@@ -24,7 +24,8 @@
 
   <p align="center">
   <!-- UPDATE -->
-    <i>Project one liner slogan goes here</i>
+    <i>A Game combining classical algorithms with Reinforcement learning in enemies to improve the intelligence in enemy behaviour.
+</i>
   </p>
 </div>
 
