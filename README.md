@@ -51,7 +51,7 @@
 ## About The Project
 <!-- UPDATE -->
 <div align="center">
-  <a href="https://github.com/cgs-iitkgp/PROJECT_NAME">
+  <a href="https://github.com/D3vanshUSha4mA/Treasure-Run">
     <img width="80%" alt="image" src="Screenshot 2025-08-10 225453.png">
   </a>
 </div>
@@ -111,16 +111,16 @@ _Now that the environment has been set up and configured to properly compile and
 <!-- UPDATE -->
 1. Clone the repository
    ```sh
-   git clone https://github.com/cgs-iitkgp/PROJECT_NAME.git
+   git clone https://github.com/D3vanshUSha4mA/Treasure-Run.git
    ```
 2. Make the script executable
    ```sh
-   cd ./PROJECT_NAME
-   chmod +x ./PROJECT_NAME
+   cd ./D3vanshUSha4mA/Treasure-Run
+   chmod +x ./D3vanshUSha4mA/Treasure-Run
    ```
 3. Execute the script
    ```sh
-   ./PROJECT_NAME
+   ./main.exe
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
